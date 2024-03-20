@@ -1,0 +1,29 @@
+### APP - API
+
+GET http://localhost:3000
+
+### Routes Module
+
+### GET all routes
+GET http://localhost:3000/routes
+
+### GET route by ID
+GET http://localhost:3000/routes/65fae28d7ecbb25d9c8d1153
+
+### POST create route
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+ "name": "Route Test 1",
+ "source_id": "ChIJo2Rro-tszpQRcgJwD_dZtAI",
+ "destination_id": "ChIJvyzYWO5szpQRTbBNKO1ppZg"
+}
+
+### Maps Module
+
+### Get Place ID
+GET http://localhost:3000/places?text=hospital ribeirão pires
+
+### Get Directions for two places ID
+GET http://localhost:3000/directions?originId=ChIJo2Rro-tszpQRcgJwD_dZtAI&destinationId=ChIJvyzYWO5szpQRTbBNKO1ppZg
