@@ -15,15 +15,15 @@ POST http://localhost:3000/routes
 Content-Type: application/json
 
 {
- "name": "Route Test 1",
- "source_id": "ChIJo2Rro-tszpQRcgJwD_dZtAI",
+ "name": "Route Name",
+ "source_id": "ChIJvyzYWO5szpQRTbBNKO1ppZg",
  "destination_id": "ChIJvyzYWO5szpQRTbBNKO1ppZg"
 }
 
 ### Maps Module
 
 ### Get Place ID
-GET http://localhost:3000/places?text=hospital ribeirão pires
+GET http://localhost:3000/places?text=hospita
 
 ### Get Directions for two places ID
 GET http://localhost:3000/directions?originId=ChIJo2Rro-tszpQRcgJwD_dZtAI&destinationId=ChIJvyzYWO5szpQRTbBNKO1ppZg
